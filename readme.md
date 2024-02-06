@@ -10,7 +10,9 @@ To Do:
 - [ ] modify th backend to use mongoose and the (models folder, config and middelware)
 
 # File structure
-Files structure 
+![MERN_FILE_STRUCTURE](MERN_FILE_STRUCTURE.png)
+
+
 mern-stack-app/
 ├── backend/
 │   ├── node_modules/
