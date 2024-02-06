@@ -1,0 +1,12 @@
+/* components/Filter/FilterComponent.css */
+input {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Add more styles as needed for the FilterComponent */
+  

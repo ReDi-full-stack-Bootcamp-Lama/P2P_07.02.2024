@@ -1,10 +1,12 @@
+// pages/Products.js
 import React from 'react';
+import ProductsList from '../components/Productlist';
 
 const Products = () => {
   return (
     <div>
-      {/* Products page content here */}
-      <h2>Products</h2>
+      <h1>Products Page</h1>
+      <ProductsList />
     </div>
   );
 };

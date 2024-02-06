@@ -3,6 +3,7 @@ const path = require('path');
 
 const productsDataPath = path.join(__dirname, '../data/products.json');
 
+
 // Controller methods
 exports.getAllProducts = (req, res) => {
     fs.readFile(productsDataPath, 'utf8', (err, data) => {
@@ -12,7 +13,7 @@ exports.getAllProducts = (req, res) => {
         }
 
         const products = JSON.parse(data).products;
-        res.json(products);
+        return res.json(products);
     });
 };
 
