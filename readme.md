@@ -9,6 +9,10 @@ To Do:
 - [ ] modify the frontend to retrieve the data from the backend(api)
 - [ ] modify th backend to use mongoose and the (models folder, config and middelware)
 
+# Project planing with chatgpt
+
+[https://chat.openai.com/share/81cf2bcd-39d5-4721-b17c-650c426e9bf5]()
+
 # File structure
 ![MERN_FILE_STRUCTURE](MERN_FILE_STRUCTURE.png)
 

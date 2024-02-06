@@ -9,6 +9,8 @@ To Do:
 - [ ] modify th backend to use mongoose and the (models folder, config and middelware)
 
 # File Structure
+![backend structure](Backend.png)
+
 
 backend/
 ├── node_modules/           // Dependencies installed via npm
