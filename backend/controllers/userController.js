@@ -35,6 +35,7 @@ exports.getUserById = (req, res) => {
     });
 };
 
+//todo u need to add other optional fields to the user data and add default values for them , see the chatgpt discussionabout user registration and hashing password and compare it with paolo's solution https://chat.openai.com/share/81cf2bcd-39d5-4721-b17c-650c426e9bf5
 exports.createUser = (req, res) => {
     const { username, email } = req.body;
 
