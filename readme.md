@@ -66,30 +66,3 @@ mern-stack-app/
 │   │   └── index.js            // Entry point for React application
 │   └── package.json
 └── ...
-
-
-
-backend/
-├── node_modules/           // Dependencies installed via npm
-├── routes/                 // Express routes
-│   ├── usersRoutes.js      // Routes related to users
-│   ├── productsRoutes.js   // Routes related to products
-│   └── ...
-├── controllers/            // Controller functions
-│   ├── usersController.js  // Controller functions for users
-│   ├── productsController.js // Controller functions for products
-│   └── ...
-├── models/                 // Data models (optional)
-│   ├── userModel.js        // Model for users
-│   ├── productModel.js     // Model for products
-│   └── ...
-├── services/               // Services (optional)
-│   ├── userService.js      // Service functions for users
-│   ├── productService.js   // Service functions for products
-│   └── ...
-├── data/                   // JSON data files
-│   ├── users.json          // JSON file for users data
-│   ├── products.json       // JSON file for products data
-│   └── ...
-├── server.js               // Entry point for Express server
-└── package.json            // Node.js package configuration

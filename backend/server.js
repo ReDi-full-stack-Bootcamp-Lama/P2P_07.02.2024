@@ -1,10 +1,11 @@
 const express = require('express');
-const app = express();
+var app = express();
 const cors = require('cors');
 
 // Import routes for users and products
-const usersRouter = require('./routes/users');
-const productsRouter = require('./routes/products');
+const usersRouter = require('./routes/api/users');
+
+const productsRouter = require('./routes/api/products');
 
 // Middleware to parse JSON bodies
 app.use(express.json());

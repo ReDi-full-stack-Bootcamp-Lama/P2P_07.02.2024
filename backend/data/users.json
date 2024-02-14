@@ -3,15 +3,37 @@
     {
       "id": 1,
       "username": "user1",
+      "password": "hashed_password_1",
       "email": "user1@example.com",
-      "password":"password1"
-
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthdate": "1990-05-15",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 2,
       "username": "user2",
+      "password": "hashed_password_2",
       "email": "user2@example.com",
-      "password":"password1"
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "birthdate": "1985-12-10",
+      "bio": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "password": "hashed_password_3",
+      "email": "user3@example.com",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "birthdate": "1995-08-25",
+      "bio": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "email": "user4@example.com"
     }
   ]
 }
